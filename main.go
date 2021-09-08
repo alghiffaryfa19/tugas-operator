@@ -6,12 +6,12 @@ import (
 
 func rupiahToDollar(money float64) string {
 	konversi := (money/14251.55)
-	return fmt.Sprintf("USD %f",konversi)
+	return fmt.Sprintf("USD %.2f",konversi)
 }
 
 func rupiahToEuro(money float64) string {
 	konversi := (money/16846.72)
-	return fmt.Sprintf("%f EURO",konversi)
+	return fmt.Sprintf("%.2f EURO",konversi)
 }
 
 func bonus(gbp int) string {
